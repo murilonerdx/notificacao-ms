@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AmazonSnsConfiguration {
 
-    @Value("${aws.acessKey}")
+    @Value("${aws.accessKey}")
     private String acessKey;
 
     @Value("${aws.secretKey}")
